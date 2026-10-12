@@ -1,0 +1,18 @@
+{
+  "agent_servers": {
+    "OpenCode in sbox": {
+      "command": "sbox",
+      "args": [
+        "exec",
+        "REPLACE_WITH_SANDBOX_ID",
+        "--harness",
+        "opencode",
+        "--mode",
+        "acp"
+      ],
+      "env": {
+        "SBOX_URL": "http://127.0.0.1:7070"
+      }
+    }
+  }
+}

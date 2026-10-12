@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.sbox/
+.env
+.env.*
+!.env.example
+*.sqlite*
+coverage/
+.*.bun-build
